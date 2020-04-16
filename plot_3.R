@@ -46,6 +46,7 @@ lines(dt_plot_3$data, dt$Sub_metering_2, type = "l", col = "red")
 
 lines(dt_plot_3$data, dt$Sub_metering_3, type = "l", col = "blue")
 
+legend("topright", lty = c(1, 1, 1), col = c("black", "red", "blue"), legend = c("Sub_metering1", "Sub_metering2", "Sub_metering3"))
 
 #### save plot
 
